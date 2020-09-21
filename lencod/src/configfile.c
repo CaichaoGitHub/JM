@@ -77,6 +77,8 @@ static int  DisplayEncoderParams    (Mapping *Map);
 static const int mb_width_cr[4] = {0,8, 8,16};
 static const int mb_height_cr[4]= {0,8,16,16};
 
+InputParameters cfgparams;
+
 #define MAX_ITEMS_TO_PARSE  10000
 
 #include "sei.h"

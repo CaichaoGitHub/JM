@@ -15,7 +15,6 @@
 
 #include "contributors.h"
 #include <limits.h>
-
 #include "global.h"
 #include "image.h"
 #include "img_luma.h"

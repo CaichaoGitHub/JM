@@ -29,6 +29,7 @@ void EstimateWPPSliceAlg2(Slice *currSlice, int select_offset)
 {
   VideoParameters *p_Vid = currSlice->p_Vid;
   InputParameters *p_Inp = currSlice->p_Inp;
+    
   double dc_org = 0.0;
   double dc_org_UV[2] = {0.0};
   double dc_ref[MAX_REFERENCE_PICTURES] = { 0.0 };
